@@ -3,11 +3,11 @@ selector {
     WŁAŚCIWOŚĆ: WARTOŚĆ;
 }
 */
-body {
+body{
     background-color: rgb(225, 130, 139);
 }
 
-.topArticle {
+.topArticle{
     border: 5px dashed rgb(226, 80, 200);
 }
 
@@ -16,4 +16,7 @@ h1{
     padding:10px;
     margin: 10px;
     background-color: rgba(225, 70, 13, 0.477);
+}
+header{
+    border:2px dashed yellow;
 }
