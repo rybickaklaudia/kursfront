@@ -7,10 +7,10 @@ body {
     background-color: rgb(225, 130, 139);
 }
 
-article{
+article {
     border: 2px dashed red;
 }
 
-.topArticle{
+.topArticle {
     border: 5px dashed rgb(226, 80, 200)
 }
