@@ -18,7 +18,7 @@ wpisz "git --version"
 2. W Polu Message/Komunikat wpisz nazwę wprowadzonych zmian, a następnie "skomituj (comit)" za pomocą "okejki" nad message
 3. Synchronizuj zmiany
 
-## udostępnianie strony - Github Pages
+## Udostępnianie strony - Github Pages
 1. Wejdź na stronę swpjego repozytorium (https://github.com/``TWÓJUSERNAME``/"NAZWA_REPOZYTORIUM")
 2. Kliknij Settings -> Pages (po lewej stronie)
 3. Pod source (źródło) zmień None na master/main
