@@ -20,8 +20,7 @@ wpisz "git --version"
 
 ## udostępnianie strony - Github Pages
 1. Wejdź na stronę swpjego repozytorium (https://github.com/``TWÓJUSERNAME``/"NAZWA_REPOZYTORIUM")
-2.
+2. Kliknij Settings -> Pages (po lewej stronie)
 3. Pod source (źródło) zmień None na master/main
 4. Wejdź na stronę https://`username`.github.io/'nazwa repozytorium'/'nazwafolderu'/
-przykład: https://rybickaklaudia.github.io/kursfront
-
+przykład: https://rybickaklaudia.github.io/kursfront/cw1
