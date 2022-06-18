@@ -8,5 +8,9 @@ body {
 }
 
 article{
-border: 2px dashed red;
+    border: 2px dashed red;
+}
+
+.topArticle{
+    border: 5px dashed rgb(226, 80, 200)
 }
