@@ -12,3 +12,8 @@ wpisz "git --version"
 1. stwórz folder i otwórz go w VSC (CTRL + K CTRL + O lub File -> Open Folder)
 2. Stwórz plik read.me i opisz w nim swój projekt
 3. W VSC przejdź do zakładki "Source Control" i kliknij: "publish to github"
+
+## Aktualizowanie repozytorium
+1. Wejdź do source control
+2. W Polu Message/Komunikat wpisz nazwę wprowadzonych zmian, a następnie "skomituj (comit)" za pomocą "okejki" nad message
+3. Synchronizuj zmiany
