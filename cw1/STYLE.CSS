@@ -7,10 +7,13 @@ body {
     background-color: rgb(225, 130, 139);
 }
 
-article {
-    border: 2px dashed red;
-}
-
 .topArticle {
     border: 5px dashed rgb(226, 80, 200);
+}
+
+h1{
+    border:10px dashed #fff
+    padding:10px;
+    margin: 10px;
+    background-color: rgba(red, green, blue, alpha)
 }
