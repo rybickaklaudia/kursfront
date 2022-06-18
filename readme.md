@@ -23,5 +23,5 @@ wpisz "git --version"
 2.
 3. Pod source (źródło) zmień None na master/main
 4. Wejdź na stronę https://`username`.github.io/'nazwa repozytorium'/'nazwafolderu'/
-przykład: https://rybickaklaudia.github.io/kursfront/ćwiczenie1
+przykład: https://rybickaklaudia.github.io/kursfront/ćwiczeniepierwsze1
 
