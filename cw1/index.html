@@ -8,19 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+
+<style>
+    .parent{
+        border: 2px dashed red;
+        height: 200px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+    <div class="test">
+    <header class=" topheader">
         <h1>Nagłówek</h1>
     </header>
 
     <nav>
         <h2>Nawigacja</h2>
     </nav>
+    </header class>
 
     <main>
        <h3>Content</h3>
         <article class="topArticle">
             <header>
-                Nagłówek autonomicznej części strony
+               <h2> Nagłówek autonomicznej części strony</h2>
 
                 <img
                  src="https://www.w3schools.com/w3css/img_avatar3.png" 
@@ -71,7 +84,7 @@
 <!--Formularz-->
 <article>
     <h2>Napisz wiadomość</h2>
-    <form> 
+    <form class="messageform"> 
         <input type="text" placeholder="EMAIL">
         <textarea 
          cols="30" 

@@ -8,15 +8,35 @@ body{
 }
 
 .topArticle{
-    border: 5px dashed rgb(226, 80, 200);
-}
+    border: 5px dashed rgb(226, 80, 200);}
 
 h1{
     border:10px dashed #fff;
     padding:10px;
     margin: 10px;
-    background-color: rgba(225, 70, 13, 0.477);
-}
-header{
+    background-color: rgba(225, 70, 13, 0.477);}
+
+.topheader{
     border:2px dashed yellow;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;}
+
+
+/* wszyscy potomkowie topheadera */
+.topheader h1,
+.topheader nav {
+    border: 5px solid #fff;
+    margin: 2px;
+}
+
+.messageform{
+    border: 2px dashed red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    padding:15px;
 }
