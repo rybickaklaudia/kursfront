@@ -38,6 +38,7 @@ h1{
     border: 2px dashed rgb(238, 174, 197);;
     display: flex;
     flex-direction: column;
+
     
 }
 
@@ -71,4 +72,10 @@ background-color: rgb(238, 174, 197);
         flex-direction: row;
     }
     
+    @media (min-width: 768px){
+        .messageform{
+            flex-direction: row;
+            align-items: column;
+        }
+    }
 }
