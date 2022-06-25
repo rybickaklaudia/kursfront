@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <header class="topHeader">
+        <h1> Nagłówek</h1>
+        <nav> <h3>Nawigacja</h3></nav>
+    </header>
 <style>
     .parent{
         border: 2px dashed red;
@@ -25,20 +28,7 @@
         height 50px
     }
 </style>
-    <div class= "parent"></div>
-    <div class="child"></div>
 
-
-
-    <div class="test">
-    <header class=" topheader">
-        <h1>Nagłówek</h1>
-    </header>
-    </div class>
-
-    <nav>
-        <h2>Nawigacja</h2>
-    </nav>
     </header>
 
     <main>
@@ -48,22 +38,22 @@
                <h2> Nagłówek autonomicznej części strony</h2>
 
                 <img
-                 src="https://www.w3schools.com/w3css/img_avatar3.png" 
+                 src="https://ziemiadebicka.pl/wp-content/uploads/2021/09/prosiak.jpg" 
                  alt="user image"
-                 width="180px"
-                 height="180px"
+                 width="270px"
+                 height="290px"
                 />
             </header>
 
-
             <table border="1">
 
-            
+            <thead>
             <tr>
-                <th>nazwa</th>
-                <th>ocena</th>
+                <th>Nazwa</th>
+                <th>Ilość Kwi</th>
             </tr>
-
+             </thead>
+             <tbody>
             <tr>
                 <td>HTML</td>
                 <td>🐷🐷🐷🐷🐷</td>
@@ -73,10 +63,9 @@
                 <td>CSS</td>
                 <td>🐷🐷🐷🐷🐷</td>
             </tr>
-            
+            </tbody>
             </table>
-
-        </article>
+     </article>
 
     <section>
         <header>  
@@ -84,32 +73,34 @@
         </header>
       
 
-    <ul>
-        <li>element 1</li>
-        <li>element 2</li>
-        <li>element 3</li>
-    </ul>
-    </section> 
-
+    <ol>
+        <li>
+            Element pierwszy 🐖
+        </li>
+        <li>
+            Element drugi 🐖🐖
+        </li>
+        <li>
+            Element trzeci🐖🐖🐖</li>
+    </ol>
+ </section> 
 </main>
 
 <!--Formularz-->
 <article>
     <h2>Napisz wiadomość</h2>
     <form class="messageform"> 
-        <input type="text"placeholder="EMAIL">
+        <input type="text" placeholder="Podaj swój email">
         <textarea
          cols="30" 
          rows="10"
-        placeholder="TREŚĆ"></textarea>
-        <input type="submit" value="wyślij">
+        placeholder="Wprowadź treść..."></textarea>
+        <input type="submit" value="Wyślij">
     </form>
-
 </article>
 
 <footer>
-    Stopka
-</footer>-->
-  
+Stopka
+</footer> 
 </body>
 </html>
