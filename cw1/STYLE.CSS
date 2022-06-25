@@ -8,7 +8,11 @@ body{
 }
 
 .topArticle{
-    border: 5px dashed rgb(226, 80, 200);}
+    border: 5px dashed rgb(226, 80, 200);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 h1{
     border:10px dashed #fff;
@@ -39,9 +43,26 @@ h1{
 
 main{
     display:flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 input{
     padding:15px;
+}
+
+/* obsłuż tylko headery wenwątrz .topArticle */
+.topArticle header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+background-color: blueviolet;
+}
+
+footer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(24, 17, 80);
+    width: 50vw;
 }
