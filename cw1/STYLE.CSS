@@ -28,7 +28,6 @@ h1{
     padding: 10px}
 
 
-/* wszyscy potomkowie topheadera */
 .topheader h1,
 .topheader nav {
     border: 5px solid rgb(238, 174, 197);;
