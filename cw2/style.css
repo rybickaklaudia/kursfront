@@ -41,6 +41,9 @@ section{
     aspect-ratio: 1/1;
     margin:1rem;
     margin-bottom: 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
   
   @media (min-width:768px){
@@ -58,4 +61,30 @@ section{
     display: flex;
     justify-content: space-around;
   }
+}
+
+article:nth-child(1){
+  background-image: url(https://files.worldwildlife.org/wwfcmsprod/images/Lion_WWFGIFTS_cover_2020/magazine_small/2wafu1bmcz_b21fc8e6.jpeg);
+}
+
+article:nth-child(2){
+  background-image: url(https://zwierzaki.pl/wp-content/uploads/2021/12/zebra-1200x675.jpg);
+}
+
+article:after{
+  content: "Kliknij, aby zobaczyć";
+  background-color:rgb(13, 96, 47);
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  transition: .5s;
+}
+
+article:active:after{
+  opacity: 0;
 }
