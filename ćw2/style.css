@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(237, 227, 210);
+    margin:0;
+}
+
+footer,
+.cookies{
+border: 5px solid rgb(195, 138, 25);
+text-align: center;
+padding:.5rem;
+}
+
+header{
+border: 5px solid rgb(195, 138, 25);
+padding:.5rem;
+
+}
+
+h1{
+    margin: 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+*{
+    box-sizing: border-box;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:calc( 3rem + 10px );
+  }
+  
+  article{
+    border: 5px solid #000;
+    aspect-ratio: 1/1;
+    margin:1rem;
+    margin-bottom: 0;
+  }
+  
+  @media (min-width:768px){
+  
+    section{
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap:wrap;
+    }
+  
+    article{
+      width:35%;
+  }
+  #pond {
+    display: flex;
+    justify-content: space-around;
+  }
+}
