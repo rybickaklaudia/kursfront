@@ -1,0 +1,115 @@
+*{ box-sizing: border-box; }
+body{
+  background-color: hsl(30, 38%, 92%);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  margin:0;
+  padding:1rem;
+}
+
+main{
+  background-color: hsl(0, 0%, 100%);
+  border-radius:1rem;
+}
+
+header img{
+  max-width:100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+h2{
+  color:hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  letter-spacing: 5px;
+  margin:0;
+}
+h1{
+  color:hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
+  font-size:2rem;
+  line-height: 1.8rem;
+  letter-spacing: -1px;
+  margin:.4rem 0;
+}
+p{
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size:.85rem;
+  line-height: 1.5rem;
+}
+
+
+/* sekcja która jest bespośrednim 
+dzieckiem maina */
+main > section{
+  padding:1.5rem;
+}
+
+section > section{
+  margin-top: 2rem;
+  display:flex;
+  align-items: center;
+}
+
+strong{
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-size:2rem;
+}
+
+s{
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding-left:1.5rem;
+}
+
+button{
+  background-color: hsl(158, 36%, 37%);
+  border-radius:.5rem;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(0, 0%, 100%);
+  margin-top:.8rem;
+  padding:.8rem;
+  border:none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* przestrzeń pomiędzy dziećmi
+  flexa */
+  gap:.8rem;
+  cursor:pointer;
+}
+
+button:active{
+  background-color: hsl(156, 42%, 18%);
+}
+
+.attribution{
+  position: fixed;
+  bottom:0;
+  right:0;
+  font-size:.7em;
+}
+
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  main{
+    display:flex;
+  }
+  header img{
+    height:450px;
+    width:300px;
+    border-radius:1rem 0 0 1rem;
+  }
+  main > section{
+    padding:2rem;
+    width:300px;
+  }  
+}
