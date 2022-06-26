@@ -71,6 +71,14 @@ article:nth-child(2){
   background-image: url(https://zwierzaki.pl/wp-content/uploads/2021/12/zebra-1200x675.jpg);
 }
 
+article:nth-child(3){
+  background-image: url(https://pixnio.com/free-images/fauna-animals/elephant/african-elephant-high-resolution.jpg);
+}
+
+article:nth-child(4){
+  background-image: url(https://www.publicdomainpictures.net/pictures/400000/nahled/giraffe-sticking-out-tongue-1621414563AQK.jpg);
+}
+
 article:after{
   content: "Kliknij, aby zobaczyć";
   background-color:rgb(13, 96, 47);
